@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>괴물 소개 페이지</title>
+  <style>
+    /* CSS 코드 */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+    }
+
+    .container {
+      width: 60%;
+      margin: 0 auto;
+      text-align: center;
+      padding-top: 50px;
+      border: 2px solid black;
+      border-radius: 10px;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+
+    .movie-poster {
+      margin: 0 auto;
+      width: 200px;
+      height: 300px;
+      border: 2px dashed green;
+      overflow: hidden;
+    }
+
+    .movie-poster img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .movie-info {
+      margin-top: 20px;
+      text-align: left;
+    }
+
+    .movie-info p {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+
+    .movie-info span {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>괴물</h1>
+    <div class="movie-poster">
+      <img src="./img/gwoemul.jpg" alt="괴물 포스터">
+    </div>
+    <div class="movie-info">
+      <p><span>장르:</span> 괴수, 모험, 액션</p>
+      <p><span>감독:</span> 봉준호</p>
+      <p><span>출연:</span> 송강호, 변희봉, 박해일, 배두나, 고아성</p>
+    </div>
+  </div>
+</body>
+</html>
