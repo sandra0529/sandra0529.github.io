@@ -1,26 +1,110 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ko">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>영화 소개 페이지</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <style>
-    h1 {
-        text-align: center;
-        margin:0;
-        margin-top: 50px;
-    }
-    </style>
-  </head>
-  <body>
-    <h1>영화 소개 페이지</h1>
-    <!DOCTYPE html>
-<html>
 <head>
-    <title>사진 갤러리</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>영화 소개 사이트</title>
+  <style>
+    /* CSS 코드 */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fefcfc;
+    }
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+      padding-top: 20px;
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .movie-list {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .movie-item {
+      width: 150px;
+      text-align: center;
+    }
+
+    .movie-poster {
+      width: 150px;
+      height: 200px;
+      border: 2px solid rgb(98, 0, 255);
+      border-radius: 15px;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #ffffff;
+    }
+
+    .movie-poster img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* 이미지가 포스터 크기에 맞도록 자르기 */
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  </style>
 </head>
-</html>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
+<body>
+  <div class="container">
+    <h1>영화 소개 사이트</h1>
+    <div class="movie-list">
+      <div class="movie-item">
+        <a href="./insideout2.html">
+          <div class="movie-poster">
+            <img src="./img/insideout2.jpg" alt="영화 포스터 1">
+          </div>
+        </a>
+        <a href="./insideout2.html">인사이드 아웃2</a>
+      </div>
+      <div class="movie-item">
+        <a href="./admiral.html">
+          <div class="movie-poster">
+            <img src="./img/admiral.jpg" alt="영화 포스터 2">
+          </div>
+        </a>
+        <a href="./admiral.html">명량</a>
+      </div>
+      <div class="movie-item">
+        <a href="./titanic.html">
+          <div class="movie-poster">
+            <img src="./img/titanic.jpg" alt="영화 포스터 3">
+          </div>
+        </a>
+        <a href="./titanic.html">타이타닉</a>
+      </div>
+      <div class="movie-item">
+        <a href="./gwoemul.html">
+          <div class="movie-poster">
+            <img src="./img/gwoemul.jpg" alt="영화 포스터 4">
+          </div>
+        </a>
+        <a href="./gwoemul.html">괴물</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+   
+  </script>
+</body>
 </html>
