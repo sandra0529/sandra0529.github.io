@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>영화 소개 사이트</title>
+  <style>
+    /* CSS 코드 */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+    }
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+      padding-top: 20px;
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .movie-list {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .movie-item {
+      width: 150px;
+      text-align: center;
+    }
+
+    .movie-poster {
+      width: 150px;
+      height: 200px;
+      border: 2px solid black;
+      border-radius: 15px;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #ffffff;
+    }
+
+    .movie-poster img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* 이미지가 포스터 크기에 맞도록 자르기 */
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>영화 소개 사이트</h1>
+    <div class="movie-list">
+      <div class="movie-item">
+        <a href="./insideout2.html">
+          <div class="movie-poster">
+            <img src="./img/insideout2.jpg" alt="영화 포스터 1">
+          </div>
+        </a>
+        <a href="./insideout2.html">인사이드 아웃2</a>
+      </div>
+      <div class="movie-item">
+        <a href="./admiral.html">
+          <div class="movie-poster">
+            <img src="./img/admiral.jpg" alt="영화 포스터 2">
+          </div>
+        </a>
+        <a href="./admiral.html">명량</a>
+      </div>
+      <div class="movie-item">
+        <a href="./titanic.html">
+          <div class="movie-poster">
+            <img src="./img/titanic.jpg" alt="영화 포스터 3">
+          </div>
+        </a>
+        <a href="./titanic.html">타이타닉</a>
+      </div>
+      <div class="movie-item">
+        <a href="./gwoemul.html">
+          <div class="movie-poster">
+            <img src="./img/gwoemul.jpg" alt="영화 포스터 4">
+          </div>
+        </a>
+        <a href="./gwoemul.html">괴물</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+   
+  </script>
+</body>
+</html>
