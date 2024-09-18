@@ -69,42 +69,45 @@
     <h1>영화 소개 사이트</h1>
     <div class="movie-list">
       <div class="movie-item">
-        <a href="./insideout2.html">
+        <a href="./insideout2.html" onclick="showAlert('인사이드 아웃2')">
           <div class="movie-poster">
             <img src="./img/insideout2.jpg" alt="영화 포스터 1">
           </div>
         </a>
-        <a href="./insideout2.html">인사이드 아웃2</a>
+        <a href="./insideout2.html" onclick="showAlert('인사이드 아웃2')">인사이드 아웃2</a>
       </div>
       <div class="movie-item">
-        <a href="./admiral.html">
+        <a href="./admiral.html" onclick="showAlert('명량')">
           <div class="movie-poster">
             <img src="./img/admiral.jpg" alt="영화 포스터 2">
           </div>
         </a>
-        <a href="./admiral.html">명량</a>
+        <a href="./admiral.html" onclick="showAlert('명량')">명량</a>
       </div>
       <div class="movie-item">
-        <a href="./titanic.html">
+        <a href="./titanic.html" onclick="showAlert('타이타닉')">
           <div class="movie-poster">
             <img src="./img/titanic.jpg" alt="영화 포스터 3">
           </div>
         </a>
-        <a href="./titanic.html">타이타닉</a>
+        <a href="./titanic.html" onclick="showAlert('타이타닉')">타이타닉</a>
       </div>
       <div class="movie-item">
-        <a href="./gwoemul.html">
+        <a href="./gwoemul.html" onclick="showAlert('괴물')">
           <div class="movie-poster">
             <img src="./img/gwoemul.jpg" alt="영화 포스터 4">
           </div>
         </a>
-        <a href="./gwoemul.html">괴물</a>
+        <a href="./gwoemul.html" onclick="showAlert('괴물')">괴물</a>
       </div>
     </div>
   </div>
 
   <script>
-   
+    // JavaScript 코드
+    function showAlert(movieTitle) {
+      alert(movieTitle + " 영화 소개 페이지로 넘어갑니다.");
+    }
   </script>
 </body>
 </html>
